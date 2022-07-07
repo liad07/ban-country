@@ -3,7 +3,7 @@
 add thisline to html code
 ```html
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+```
 188 of the 365 chalenge in 2022 1 day 1 challenge
 
 ```javascript      
