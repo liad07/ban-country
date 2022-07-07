@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-  <script src="libary/jquery/jquery.min.js"></script>
-</head><body>
+    <title>ban country</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
 <script>
-  $.ajax({
-    url:"https://geolocation-db.com/jsonp/",
-    jsonpCallback: "callback",
-    dataType: "jsonp",
-    success: function( location ) {
-      if(location.country_name=="Israel"){
-          alert("banned")
-      }
-    }
-  });
+    //enter what country you want to block *use with big char in the first letter*
+    var  country_to_block="Israel"
+
+    $.ajax({
+        url: "https://geolocation-db.com/jsonp/",
+        jsonpCallback: "callback",
+        dataType: "jsonp",
+        success: function (location) {
+            if (location.country_name == country_to_block) {
+                window.location.href = 'ban.html?'+country_to_block
+            }
+        }
+    });
 </script>
 </body>
 </html>
