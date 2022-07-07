@@ -1,10 +1,10 @@
 ## add this script to your web
                                                                                                                             
-###add this line to html code
+### add this line to html code
 ```html
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 ```
-##### in this code we block any user from israel it cause im from israel and its easy for e to check with this
+##### in this code we block any user from israel it cause im from israel and its easy for me to check with this
 188 of the 365 chalenge in 2022 1 day 1 challenge
 
 ```javascript      
