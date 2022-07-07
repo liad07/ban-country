@@ -1,6 +1,6 @@
 ## add this script to your web
                                                                                                                             
-add thisline to html code
+add this line to html code
 ```html
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 ```
